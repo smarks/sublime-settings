@@ -1,0 +1,41 @@
+{
+    "variables": {},
+    "globals": {
+        "background": "#ffffff",
+        "foreground": "#000000",
+        "line_highlight": "#eeeeee",
+        "caret": "#000000",
+        "selection": "#d0d0d0",
+        "gutter": "#ffffff",
+        "gutter_foreground": "#888888"
+    },
+    "rules": [
+        {
+            "scope": "source, text, meta, string, punctuation, constant, entity, variable, support, storage, keyword",
+            "foreground": "#000000",
+            "background": "#ffffff"
+        },
+        {
+            "scope": "comment",
+            "foreground": "#555555",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword, storage",
+            "foreground": "#0000cc",
+            "font_style": "italic"
+        },
+        {
+            "scope": "constant.numeric, constant.language",
+            "foreground": "#cc0000"
+        },
+        {
+            "scope": "entity.name.function, support.function",
+            "foreground": "#0000cc"
+        },
+        {
+            "scope": "entity.name.class, entity.name.type",
+            "foreground": "#007070"
+        }
+    ]
+} 

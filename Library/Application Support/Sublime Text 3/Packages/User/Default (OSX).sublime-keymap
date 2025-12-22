@@ -1,0 +1,26 @@
+[
+    
+    // Toggle terminal panel at bottom
+    {
+        "keys": ["ctrl+'"],
+        "command": "terminus_open",
+        "args": {"panel_name": "Terminus"}
+    },
+    // Open terminal in a new tab (can open multiple)
+    {
+        "keys": ["ctrl+shift+'"],
+        "command": "terminus_open"
+    },
+    // Open terminal in current view/pane
+    {
+        "keys": ["alt+'"],
+        "command": "terminus_open",
+        "args": {"view_id": "$view_id"}
+    },
+    // Close terminal
+    {
+        "keys": ["ctrl+w"],
+        "command": "terminus_close",
+        "context": [{"key": "terminus_view"}]
+    }
+]

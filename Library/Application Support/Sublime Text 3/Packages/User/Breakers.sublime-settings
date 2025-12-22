@@ -1,0 +1,27 @@
+{
+    "variables": {},
+    "globals": {
+        "background": "#ffffff",
+        "foreground": "#000000"
+    },
+    "rules": [
+        {
+            "scope": "source, text, string, meta, punctuation, constant, entity, variable, support, storage, keyword",
+            "foreground": "#000000"
+        },
+        {
+            "scope": "comment",
+            "foreground": "#555555",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword, storage",
+            "foreground": "#0000cc",
+            "font_style": "italic"
+        },
+        {
+            "scope": "constant.numeric, constant.language",
+            "foreground": "#cc0000"
+        }
+    ]
+}

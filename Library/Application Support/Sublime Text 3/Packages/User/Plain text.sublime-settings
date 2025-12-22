@@ -1,0 +1,53 @@
+{
+    "variables": {},
+    "globals": {
+        "background": "#ffffff",
+        "foreground": "#000000",
+        "line_highlight": "#eeeeee",
+        "caret": "#000000",
+        "selection": "#d0d0d0",
+        "gutter": "#ffffff",
+        "gutter_foreground": "#888888"
+    },
+    "rules": [
+        {
+            "name": "EVERYTHING BLACK",
+            "scope": "source - comment, text, meta, string, punctuation, constant, entity, variable, support, storage, keyword, markup",
+            "foreground": "#000000"
+        },
+        {
+            "scope": "string.quoted.double, string.quoted.single, string.template, meta.string",
+            "foreground": "#000000"
+        },
+        {
+            "scope": "source.json",
+            "foreground": "#000000"
+        },
+        {
+            "scope": "meta.mapping.key string, meta.structure.dictionary.key string, string.json, source.json string",
+            "foreground": "#000000"
+        },
+        {
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "#555555",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword, storage.type, storage.modifier",
+            "foreground": "#0000cc",
+            "font_style": "italic"
+        },
+        {
+            "scope": "constant.numeric, constant.language.boolean, constant.language.null",
+            "foreground": "#cc0000"
+        },
+        {
+            "scope": "entity.name.function, support.function",
+            "foreground": "#0000cc"
+        },
+        {
+            "scope": "entity.name.class, entity.name.type, support.type",
+            "foreground": "#007070"
+        }
+    ]
+}

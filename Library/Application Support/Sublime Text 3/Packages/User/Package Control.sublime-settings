@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ayu",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"GitGutter",
+		"Inspired GitHub Color Scheme",
+		"LSP",
+		"LSP-basedpyright",
+		"LSP-json",
+		"LSP-pyright",
+		"Package Control",
+		"Pretty JSON",
+		"python-black",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Terminal",
+		"TerminalView",
+		"Terminus",
+		"TrailingSpaces",
+	],
+	"debug": true,
+}
