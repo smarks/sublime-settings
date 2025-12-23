@@ -1,5 +1,45 @@
 {
+    // Appearance
     "color_scheme": "Breakers.sublime-color-scheme",
     "font_face": "Dank Mono",
     "font_size": 23,
+    "highlight_line": true,
+    "line_padding_top": 2,
+    "line_padding_bottom": 2,
+    "caret_style": "phase",
+    "rulers": [80, 120],
+    "draw_white_space": ["selection", "trailing"],
+    "scroll_past_end": true,
+
+    // Tabs & Indentation
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "detect_indentation": true,
+
+    // Saving
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof": true,
+    "save_on_focus_lost": true,
+    "atomic_save": true,
+
+    // Sidebar & Status Bar
+    "show_encoding": true,
+    "show_line_endings": true,
+    "preview_on_click": false,
+
+    // Performance & Indexing
+    "index_files": true,
+    "index_exclude_patterns": ["*.log", "*.tmp", "*.cache", "node_modules/*", "__pycache__/*", "*.pyc", ".git/*"],
+
+    // Autocomplete
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_with_fields": true,
+    "auto_complete_delay": 50,
+
+    // Word Wrap
+    "word_wrap": "auto",
+    "wrap_width": 120,
+
+    // Find
+    "highlight_find_results_in_gutter": true,
 }
