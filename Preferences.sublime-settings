@@ -43,7 +43,6 @@
     // Find
     "highlight_find_results_in_gutter": true,
 
-    // Vim mode (Vintage)
-    "ignored_packages": [],
-    "vintage_start_in_command_mode": true,
+    // Vim mode (Vintage) - disabled
+    "ignored_packages": ["Vintage"],
 }
